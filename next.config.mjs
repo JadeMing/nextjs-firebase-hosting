@@ -6,8 +6,9 @@ const nextConfig = {
 
     Since Next.js supports this static export, it can be deployed and hosted on any web server that can serve HTML/CSS/JS static assets.
     */
-    output: 'export',   
-    distDir: 'dist',
+    //// For firebase deploy
+    // output: 'export',
+    // distDir: 'dist',
 };
 
 export default nextConfig;
